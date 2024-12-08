@@ -1,0 +1,35 @@
+To install latest expo-cli:
+1...npm install --global expo-cli
+
+To install npm:
+2.....npm install
+
+To resolve issue with npm:
+3....npm audit fix --force
+
+To upgrade the expo:
+expo upgrade
+
+use the following command for Error: spawn yarnpkg ENOENT( while installing camera package)
+npm i -g yarn
+
+then run :
+4.....expo install expo-camera
+then run :
+5.....expo install expo-face-detector
+then run :
+6....expo install expo-permissions
+
+
+to run the app use command:
+8....npx expo start
+
+if asking for updating packgaes use:
+expo update expo-status-bar          (status-bar is a package)
+
+To make these texts responsive and
+adjust according to the screen size, we
+will install one of the React Native
+libraries. Use:
+
+7....npm install react-native-responsive-fontsize--save
